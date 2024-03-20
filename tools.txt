@@ -1,0 +1,45 @@
+* Pipe
+Validates Incoming Data
+
+* Guard
+Handles Authentication
+
+* Controller
+Handles Incoming Reqs
+
+* Service
+Handles data access and business logic
+
+* Repository
+Handles data stored in a db
+
+***
+
+* Modules
+Groups together code
+
+* Filters
+Handles errors that occur during request handling
+
+* Interceptors
+Adds extra logic to incoming requests or outgoing responses
+
+***
+
+One class per file (some exceptions)
+
+Class names should include the kind of thing we are creating
+
+Name of class and name of file should always match up
+
+Filename template:
+name.type_of_things.ts
+
+main.ts
+function bootstrap
+
+app.controller.ts
+class AppController {}
+
+app.module.ts
+class AppModule {}
